@@ -30,23 +30,7 @@ allowfullscreen>
 [View Sermon Detials]({{ latest.url | relative_url }})
 
 ---
-
-## More Sermons
-
-{% assign recent = site.posts | sort: "date" | reverse %}
-
-{% for post in recent limit:4 offset:1 %}
-
-### [{{ post.title }}]({{ post.url | relative_url }})
-{{ post.date | date: "%B %-d, %Y" }}
-
-{% if sermon.series %}
-Series: {{ post.series }}
-{% endif %}
-
 ---
-
-{% endfor %}
 
 <h2>More Sermons</h2>
 
