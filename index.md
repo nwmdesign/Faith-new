@@ -34,11 +34,11 @@ allowfullscreen>
 
 # More Sermons
 
-{% assign recent = site.sermons | sort: "date" | reverse %}
+{% assign recent = site.posts | sort: "date" | reverse %}
 
 {% for sermon in recent limit:4 offset:1 %}
 
-## [{{ sermon.title }}]({{ sermon.url | relative_url }})
+## [{{ posts.title }}]({{ post.url | relative_url }})
 {{ sermon.date | date: "%B %-d, %Y" }}
 
 {% if sermon.series %}
