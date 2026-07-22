@@ -32,17 +32,18 @@ allowfullscreen>
 
 ---
 
-# More Sermons
+## More Sermons
 
 {% assign recent = site.posts | sort: "date" | reverse %}
 
 {% for sermon in recent limit:4 offset:1 %}
 
-## [{{ posts.title }}]({{ post.url | relative_url }})
-{{ sermon.date | date: "%B %-d, %Y" }}
+### [{{ posts.title }}]({{ post.url | relative_url }})
+{{ post.date | date: "%B %-d, %Y" }}
+<img src="https://img.youtube.com/vi/{{ post.youtube_id }}/maxresdefault.jpg">
 
 {% if sermon.series %}
-Series: {{ sermon.series }}
+Series: {{ post.series }}
 {% endif %}
 
 ---
