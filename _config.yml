@@ -22,12 +22,8 @@ description: Sermons and teachings from Faith Tabernacle Church in Liberal, KS
 
 navbar-links:
   Home: ""
-  Topics: "Topics"
-  Scripture: "Scripture"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Topics: "topics"
+  Scripture: "scripture"
 
 ################
 # --- Logo --- #
