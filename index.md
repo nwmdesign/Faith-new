@@ -37,7 +37,7 @@ allowfullscreen>
 
 {% for post in recent limit:4 offset:1 %}
 
-### [{{ posts.title }}]({{ post.url | relative_url }})
+### [{{ post.title }}]({{ post.url | relative_url }})
 {{ post.date | date: "%B %-d, %Y" }}
 <img src="https://img.youtube.com/vi/{{ post.youtube }}/maxresdefault.jpg">
 
