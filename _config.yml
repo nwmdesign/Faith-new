@@ -10,17 +10,20 @@
 ############################
 
 # Name of website
-title: My website
+title: Faith Tabernacle Sermons
 
 # Your name to show in the footer
-author: Some Person
+author: Faith Tabernacle Church
+description: Sermons and teachings from Faith Tabernacle Church in Liberal, KS
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
+  Home: ""
+  Sermons: "sermons"
+  About: "about"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
