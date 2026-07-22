@@ -3,10 +3,10 @@ media:
   output: /assets/images/uploads
 
 content:
-  - name: sermons
+  - name: posts
     label: Sermons
     type: collection
-    path: _sermons
+    path: _posts
     filename: "{year}-{month}-{day}-{title}.md"
     fields:
 
