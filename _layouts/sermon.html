@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<div class="sermon-page">
+ <div class="sermon-section">
+
+  <h1>{{ page.title }}</h1>
+  <h3>{{ page.scripture }}</h3>
+
+  <p>
+  <strong>Date:</strong> {{ page.date | date: '%B %d, %Y' }}
+  </p>
+
+  {% if page.speaker %}
+  <p>
+  <strong>Speaker:</strong> {{ page.speaker }}
+  </p>
+{% endif %}
+
+  {% if page.series %}
+  <p>
+  <strong>Series:</strong> {{ page.series }}
+  </p>
+{% endif %}
+
+{% if page.youtube %}
+<div class="video-container">
+  <iframe
+    src="https://www.youtube.com/embed/{{ page.youtube }}"
+    title="Youtube sermon video"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
+</div>
+{% endif %}
+  
+
+<hr>
+
+{{ content }}
+ </div>
+</div>
