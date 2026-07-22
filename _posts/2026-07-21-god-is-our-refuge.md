@@ -3,7 +3,7 @@ layout: sermon
 title: God is Our Refuge
 scripture: Psalm 46
 date: 2026-07-19
-tags: |-
+tags:
   -Refuge
   -Psalms
 youtube: PDJKNpNVPT8
