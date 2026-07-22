@@ -56,4 +56,4 @@ title: Watch Latest Sermon
 # Explore Sermons
 [Browse by Topic]({{ "/topics/" | relative_url }})
 
-[Browse by Date]({{ "/dates/" | relative_url }})
+
