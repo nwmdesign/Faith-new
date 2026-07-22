@@ -48,6 +48,26 @@ Series: {{ post.series }}
 
 {% endfor %}
 
+<h2>More Sermons</h2>
+
+{% assign recent = site.posts | sort: "date" | reverse %}
+
+<div class="sermon-table">
+  {% for post in recent limit:4 offset:1 %}
+    <div class="sermon-cell">
+      <h3>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </h3>
+
+      <p>{{ post.date | date: "%B %-d, %Y" }}</p>
+
+      {% if post.scripture %}
+        <p>{{ post.scripture }}</p>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>
+
 # Explore Sermons
 [Browse by Topic]({{ "/topics/" | relative_url }})
 
