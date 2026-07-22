@@ -28,7 +28,7 @@ title: Watch Latest Sermon
 
 {% endif %}
 
-[View Sermon Detials]({{ latest.url | relative_url }})
+[View Sermon Details]({{ latest.url | relative_url }})
 
 ---
 ---
