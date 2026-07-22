@@ -41,7 +41,7 @@ content:
         type: list
         required: false
 
-      - name: youtube id
+      - name: youtube
         label: Youtube Video ID
         type: text
         required: false
