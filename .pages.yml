@@ -1,0 +1,52 @@
+media:
+  input: assets/images/uploads
+  output: /assets/images/uploads
+
+content:
+  - name: sermons
+    label: Sermons
+    type: collection
+    path: _sermons
+    filename: "{year}-{month}-{day}-{title}.md"
+    fields:
+
+      - name: layout
+        label: Layout
+        type: string
+        hidden: true
+        default: sermon  
+        
+      - name: title
+        label: Sermon Title
+        type: text
+        required: true
+
+      - name: scripture
+        label: Scripture
+        type: text
+        required: true
+
+      - name: date
+        label: Sermon Date
+        type: date
+        required: true
+
+      - name: series
+        label: Sermon Series (optional)
+        type: text
+        required: false
+
+      - name: tags
+        label: Topics
+        type: list
+        required: false
+
+      - name: youtube id
+        label: Youtube Video ID
+        type: text
+        required: false
+
+      - name: body
+        label: Sermon Content
+        type: rich-text
+        required: false
