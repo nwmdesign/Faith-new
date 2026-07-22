@@ -3,10 +3,9 @@ layout: sermon
 title: Partners in the Gospel
 scripture: Phillipians 1:3-11
 date: 2026-06-28
-tags: |-
+tags: |
   Gospel
   Evangelism
-  Love of Christ
 youtube: 6bXdorC5Kic
 ---
 Partners in the Gospel practice gratitude  
