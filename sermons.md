@@ -1,15 +1,9 @@
 ---
 layout: default
-title: "Sermons"
+title: "Topics"
 ---
+Show all tags here 
 
-here is all sermons
-
-By date
-see all link to 
-
-by topics
-list of tags
 
 
 
