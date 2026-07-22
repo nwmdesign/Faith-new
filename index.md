@@ -15,17 +15,18 @@ title: Watch Latest Sermon
 {% endif %}
 
 {% if latest.youtube %}
-<iframe
-width="650"
-height="366"
-src="https://www.youtube.com/embed/{{ latest.youtube }}"
-title="{{ latest.title }}"
-frameborder="0"
-allowfullscreen>
-</iframe>
-{% endif %}
+<div class="youtube-wrapper">
+  <iframe
+    src="https://www.youtube.com/embed/{{ latest.youtube }}"
+    title="{{ latest.title }}"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
+</div>
 
 {% endif %}
+
+
 
 [View Sermon Detials]({{ latest.url | relative_url }})
 
