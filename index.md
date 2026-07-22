@@ -39,7 +39,6 @@ allowfullscreen>
 
 ### [{{ post.title }}]({{ post.url | relative_url }})
 {{ post.date | date: "%B %-d, %Y" }}
-<img src="https://img.youtube.com/vi/{{ post.youtube }}/maxresdefault.jpg">
 
 {% if sermon.series %}
 Series: {{ post.series }}
