@@ -1,8 +1,7 @@
 ---
 layout: home
-title: Faith Tabernacle Church
+title: Watch Latest Sermon
 ---
-# Latest Sermon
 {% assign latest = site.posts | sort: "date" | reverse | first %}
 
 {% if latest %}
