@@ -17,7 +17,7 @@ title: Watch Latest Sermon
 {% if latest.youtube %}
 <div class="youtube-wrapper">
   <iframe
-    src="https://www.youtube.com/embed/{{ latest.youtube }}"
+    src="https://www.youtube.com/embed/{{ latest.youtube }}?rel=0"
     title="{{ latest.title }}"
     frameborder="0"
     allowfullscreen>
