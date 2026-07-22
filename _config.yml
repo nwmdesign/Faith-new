@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: Faith Tabernacle Sermons
+title: Faith Tabernacle Home
 
 # Your name to show in the footer
 author: Faith Tabernacle Church
@@ -21,7 +21,7 @@ description: Sermons and teachings from Faith Tabernacle Church in Liberal, KS
 ###############################################
 
 navbar-links:
-  Home: ""
+  Sermons: ""
   Topics: "topics"
   Scripture: "scripture"
 
