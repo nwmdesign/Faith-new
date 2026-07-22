@@ -1124,3 +1124,29 @@ pre {
     display: inline-block;
   }
 }
+.sermon-table {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  margin-top: 25px;
+}
+
+.sermon-cell {
+  padding: 15px 0;
+  border-top: 1px solid #ddd;
+}
+
+.sermon-cell h3 {
+  margin: 0 0 8px;
+  font-size: 1.2rem;
+}
+
+.sermon-cell p {
+  margin: 4px 0;
+}
+
+@media (max-width: 700px) {
+  .sermon-table {
+    grid-template-columns: 1fr;
+  }
+}
