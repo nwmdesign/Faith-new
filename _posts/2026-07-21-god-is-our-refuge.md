@@ -4,7 +4,7 @@ title: God is Our Refuge
 scripture: Psalm 46
 date: 2026-07-19
 tags: |-
-  God, our refuge
+  Refuge
   Psalms
 youtube: PDJKNpNVPT8
 ---
